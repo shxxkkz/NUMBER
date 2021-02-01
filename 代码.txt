@@ -1,0 +1,8 @@
+1.	git config --global user.name "user.name"
+2.	git config --global user.email yourmail@youremail.com.cn
+
+3.	git init
+4.	git remote add origin + 自己仓库地址（如果报错remote origin already exists，输入git remote rm origin后，再做一遍这步步骤）
+5.	git add .
+6.	git commit -m "nitial commit"  
+7.	git push -u origin master（如果上面顺着来没有遗漏，这步还是出现了红字错误failed to push some refs to，那直接输入git push -f origin master，等同于强制上传）
